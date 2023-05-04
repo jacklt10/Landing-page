@@ -3,7 +3,6 @@ body {
     display: flex;
     flex:1;
     flex-direction: column;
-    flex-shrink: 0;
     padding: 0px;
     border: 0px;
 }
@@ -26,13 +25,13 @@ justify-content: center;
     flex-shrink: 1  ;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    gap: 80px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30%;
+
 }
 .logo {
     font-weight: bolder;
-    padding-right: 200px;
 }
 
 ul {
@@ -96,6 +95,9 @@ button {
     gap: 42px;
     justify-content: center;
     max-width:auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    flex-wrap: wrap;
 
 }
 img.cheesepic{
@@ -108,8 +110,34 @@ img.cheesepic{
 .cheesetext {
     max-width: 110px;
 }
-.left, .right{
+.left {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.box3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    background-color: lightyellow;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+.person {
+    padding-top: 20px;
+    width: max-content;
+    justify-content:flex-end;
+    padding-left: 60%;
+    
+    
 }
