@@ -73,6 +73,7 @@ button {
     border-radius: 10%;
     font-weight: bold;
     color: rgb(51, 64, 26);
+    height: 25px;
 }
 .title2 {
     display: flex;
@@ -139,5 +140,27 @@ img.cheesepic{
     justify-content:flex-end;
     padding-left: 60%;
     
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.cta-box {
     
+    display: flex;
+    width: 600px;
+    height: 100px;
+    flex-shrink: 1;
+    background-color: yellow;
+    border-radius: 5%;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+.button2{
+    align-self: center;
+
+}
+h4 
 }
