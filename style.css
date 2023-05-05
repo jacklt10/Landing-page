@@ -14,6 +14,8 @@ width: 100%;
 background-color: yellow;
 flex: 1;
 justify-content: center;
+background-size: cover;
+
 
 
 }
@@ -47,6 +49,10 @@ ul {
     height: auto;
     width: 300px ;
 
+}
+.text2 {
+    font-size: 30px;
+    font-weight: bolder;
 }
 .img{
 display: flex;
@@ -124,15 +130,21 @@ img.cheesepic{
     background-color: lightyellow;
     align-items: center;
     justify-content: center;
+    background-image: url(https://thumbs.dreamstime.com/b/blue-cheese-close-up-as-background-texture-macro-can-be-used-topics-45048036.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
 }
 .quote {
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-style: italic;
+    font-weight: bolder;
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
+    color: yellow;
 }
 .person {
     padding-top: 20px;
@@ -176,6 +188,4 @@ img.cheesepic{
     border-color: black;
     padding-left: 20px;
     padding-right: 20px;
-
-    
 }
