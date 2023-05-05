@@ -154,13 +154,28 @@ img.cheesepic{
     flex-shrink: 1;
     background-color: yellow;
     border-radius: 5%;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     padding: 20px;
 }
 .button2{
+    display: flex;
     align-self: center;
+    padding-left: 10px;
+
 
 }
-h4 
+.cta-title {
+    display: flex;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+.button-2{
+    background-color: yellow;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
 }
