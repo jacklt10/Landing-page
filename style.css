@@ -25,7 +25,7 @@ background-attachment: fixed;
     flex-direction: row;
     height: fit-content;
     width: auto;
-    flex-shrink: 1  ;
+    flex: 1;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
